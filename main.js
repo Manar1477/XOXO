@@ -34,12 +34,12 @@ const check= () => {
         if(
             boxes[arr[i][0]].innerHTML == "X" && boxes[arr[i][1]].innerHTML == "X" && boxes[arr[i][2]].innerHTML == "X"
         ) {
-                result = "крестики";
+                result = "Win❤";
                 prepareResult(result);
         } else if (
             boxes[arr[i][0]].innerHTML == "0" && boxes[arr[i][1]].innerHTML == "0" && boxes[arr[i][2]].innerHTML == "0"
         ) {
-            result = "нолики";
+            result = "Win❤";
             prepareResult(result);
         }
     }
@@ -47,10 +47,10 @@ const check= () => {
 
 const prepareResult = winner => {
     if (winner === ""){ 
-        contentWrapper.innerHTML = "Ничья!"; 
+        contentWrapper.innerHTML = "winner!"; 
     }
     else {
-        contentWrapper.innerHTML = `Победили ${winner}!`; 
+        contentWrapper.innerHTML = `winner ${winner}!`; 
     }
     modalResult.style.display = "block";
 }
