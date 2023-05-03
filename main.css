@@ -26,7 +26,7 @@ height: 100px;
 border: 1px solid black;
 box-sizing: border-box;
 font-size: 34px;
-color:#cc4811ff ;
+color:  #e7e9efff  ;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -79,7 +79,7 @@ align-items: center;
     border: 2px solid teal;
     border-radius: 35px;
     background-color: rgba(255, 99, 71, 0.6);
-    color: teal;
+    color: #f3b5ceff  ;
     text-align: center;
     cursor: pointer;
 }
